@@ -11,7 +11,7 @@
     @vite('resources/css/app.css')
 </head>
 
-<body>
+<body class="bg-custom2">
 
     @include('partial.header')
 
