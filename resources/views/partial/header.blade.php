@@ -9,7 +9,7 @@
             <span id="date"></span>
           </p>
 
-          <div class="xl:flex items-center space-x-5 items-center">
+          <div class="xl:flex items-center space-x-5">
             <p class="text-1xl font-bold font-heading cursor-default" href="#">
                 © Maleo Farrel - 2602076784
               </p>
