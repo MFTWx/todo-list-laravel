@@ -34,17 +34,15 @@ class Counter extends Component
     {
         $this->validate();
         
-        $description = $this->description ? $this->description : "No description";
         $completed = $this->completed == 'on' ? true : false;
 
         Todo::create([
             'title' => $this->title,
-            'description' => $description,
+            'description' => $this->description,
             'completed' => $completed,
         ]);
 
         $this->resetInputFields();
-        //$this->emitTo('listing', 'todoAdded');
         $this->dispatch('todoAdded')->to('listing');
     }
 

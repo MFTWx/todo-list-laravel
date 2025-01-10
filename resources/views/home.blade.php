@@ -1,6 +1,6 @@
 @extends('partial.base')
 
-@section('title', 'Home Page')
+@section('title', 'To Do List')
 
 @section('content')
     
